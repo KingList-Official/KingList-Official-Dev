@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="869919747e0949a285171f4484003855" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Folder" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Folder_User" Width="1.5" PointX="7.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Item" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Item_ItemOptions" Width="1.5" PointX="7.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ItemOptions" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.List" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.List_ListOptions" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.List_User" Width="1.5" PointX="10.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ListOptions" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ListType" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Subscription" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User_Item" Width="1.5" PointX="10.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User_UserOptions" Width="1.5" PointX="5.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UserOptions" Width="1.5" PointX="3" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UserRole" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Folder_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Folder_User_Folder_Parent" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Folder_User_Folder_Self" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_List_User_Folder" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Folder" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Folder_User_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Item_ItemOptions_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Item_List" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Item_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Item_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Item_ItemOptions_ItemOptions" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ItemOptions_ListType" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_List_ListOptions_List" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_List_ListType" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_List_User_List" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_List_ListOptions_ListOptions" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_List_User_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ListOptions_ListType" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Subscription" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Item_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_UserOptions_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_UserRole" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_UserOptions_UserOptions" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UserOptions_UserRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
